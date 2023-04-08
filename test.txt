@@ -1,0 +1,6 @@
+51;16;intel i3 10;NVIDIA 940MX 2;lenovo;Win10;50000.0;
+51;16;intel i3 10;NVIDIA 940MX 2;lenovo;Win10;50000.0;
+51;16;intel i3 10;NVIDIA 940MX 2;lenovo;Win10;50000.0;
+51;16;intel i3 10;NVIDIA 940MX 2;lenovo;Win10;50000.0;
+51;16;intel i3 10;NVIDIA 940MX 2;lenovo;Win10;50000.0;
+51;16;intel i3 10;NVIDIA 940MX 2;lenovo;Win10;50000.0;

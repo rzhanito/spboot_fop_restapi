@@ -1,0 +1,6 @@
+1;16;intel i3;nvidia 940mx;lenovo;win14;35000.0;
+2;16;intel i3;nvidia 940mx;lenovo;win10;35000.0;
+2;16;intel i3;nvidia 940mx;lenovo;win11;35000.0;
+2;16;intel i3;nvidia 940mx;lenovo;win15;345000.0;
+15;16;intel i3;nvidia 940mx;lenovo;win15;345000.0;
+16;32;intel i7-10th;RTX 3060Ti;hz;Linux Che to tam;65000.0;
