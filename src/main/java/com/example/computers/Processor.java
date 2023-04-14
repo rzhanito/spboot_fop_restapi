@@ -15,4 +15,7 @@ public class Processor {
     public String toString() {
         return model;
     }
+    public void setModel(String model){
+        this.model = model;
+    }
 }
