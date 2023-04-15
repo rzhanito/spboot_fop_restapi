@@ -1,5 +1,7 @@
-package com.example.computers;
+package com.example.computers.controller;
 
+import com.example.computers.util.ReadFile;
+import com.example.computers.model.Computer;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,7 +19,7 @@ public class ComputerController {
         ReadFile read = new ReadFile();
         read.read("data.txt");
         try {
-            return new ResponseEntity<>(read.computers, HttpStatus.OK);
+            return new ResponseEntity<>(read.getComputers(), HttpStatus.OK);
         } catch (Exception e) {
             e.printStackTrace();
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);

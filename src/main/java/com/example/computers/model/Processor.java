@@ -1,4 +1,4 @@
-package com.example.computers;
+package com.example.computers.model;
 
 public class Processor {
     protected String model;

@@ -1,4 +1,4 @@
-package com.example.computers;
+package com.example.computers.model;
 
 public class Computer {
     protected int id;

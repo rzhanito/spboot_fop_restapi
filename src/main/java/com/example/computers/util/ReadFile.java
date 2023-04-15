@@ -1,4 +1,6 @@
-package com.example.computers;
+package com.example.computers.util;
+
+import com.example.computers.model.*;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +8,12 @@ import java.io.FileReader;
 import java.util.ArrayList;
 
 public class ReadFile {
-    ArrayList<Computer> computers = new ArrayList<>();
+    private ArrayList<Computer> computers = new ArrayList<>();
+
+    public ArrayList<Computer> getComputers() {
+        return computers;
+    }
+
     public void read(String fileName) {
         try {
             BufferedReader reader = new BufferedReader(new FileReader(fileName));

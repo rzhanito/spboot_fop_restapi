@@ -1,4 +1,6 @@
-package com.example.computers;
+package com.example.computers.util;
+import com.example.computers.model.Computer;
+
 import java.io.*;
 
 public class WriteFile {
