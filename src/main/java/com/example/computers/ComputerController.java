@@ -1,6 +1,5 @@
 package com.example.computers;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,7 +11,7 @@ import java.io.*;
 import java.util.ArrayList;
 
 @RestController
-public class MainController {
+public class ComputerController {
     @GetMapping("/file")
     public ResponseEntity<ArrayList<Computer>> getFileContent() {
         ReadFile read = new ReadFile();
